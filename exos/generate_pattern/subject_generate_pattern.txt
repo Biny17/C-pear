@@ -1,0 +1,25 @@
+de sguan
+
+Objective:
+Implement a function that generates a pattern using a given character and stores it in a dynamically allocated buffer. 
+The pattern should contain a specified number of characters per line and a specified number of lines.
+
+    Mode1: You may use array indexing.
+    Mode2: You must use pointer arithmetic only.
+
+
+Allowed Functions:
+malloc, free
+
+
+Function Signature:
+size_t generate_Pattern(char c, int per_line, int lines, char** buffer);
+
+
+-Example:
+Input: c = '*', per_line = 3, lines = 2
+Process:
+- Allocate buffer: 2 lines, each 3 '*' + '\n' = 8 bytes
+- Write: "***\n***\n"
+Output: *buffer = "***\n***\n", return 8
+
