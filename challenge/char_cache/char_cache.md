@@ -19,7 +19,7 @@
 
 Si `cache` contient les caractères `'A'`, `'B'`, `'C'`, `'D'`, `'E'`, `'F'`, `'G'`, `'H'` (dans cet ordre, du plus significatif au moins significatif), l'appel suivant :
 ```c
-char_cache(0x4142434445464748);
+char_cache(0x4847464544434241);
 ```
 doit afficher :
 ```

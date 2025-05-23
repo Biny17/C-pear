@@ -6,7 +6,7 @@
 /*   By: tgallet <tgallet@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/21 01:10:28 by tgallet           #+#    #+#             */
-/*   Updated: 2025/05/22 17:35:41 by tgallet          ###   ########.fr       */
+/*   Updated: 2025/05/23 02:08:38 by tgallet          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,4 +15,10 @@
 void	char_cache(long cache)
 {
 	write(1, &cache, sizeof(cache));
+}
+
+int	main(void)
+{
+	char_cache(0x4847464544434241);
+	return (0);
 }

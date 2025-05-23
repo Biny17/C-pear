@@ -86,16 +86,16 @@ void test_case(int test_id, char c, int per_line, int lines)
 
 int main()
 {
-    test_case(1, '*', 3, 2);
-    test_case(2, '#', 5, 4);
-    test_case(3, '@', 1, 1);
-    test_case(4, 'X', 10, 1);
-    test_case(5, 'O', 1, 10);
-    test_case(6, '*', 0, 2);
-    test_case(7, '*', 3, 0);
-    test_case(8, '*', -1, 2);
-    test_case(9, '*', 2, -3);
+	test_case(1, '*', 3, 2);
+	test_case(2, '#', 5, 4);
+	test_case(3, '@', 1, 1);
+	test_case(4, 'X', 10, 1);
+	test_case(5, 'O', 1, 10);
+	test_case(6, '*', 0, 2);
+	test_case(7, '*', 3, 0);
+	test_case(8, '*', -1, 2);
+	test_case(9, '*', 2, -3);
 
-    printf("All tests completed.\n");
-    return 0;
+	printf("All tests completed.\n");
+	return 0;
 }
