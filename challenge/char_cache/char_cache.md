@@ -30,4 +30,3 @@ ABCDEFGH
 
 - Essayer de ne pas utiliser de tableaux ni de chaînes de caractères.
 - Petit challenge: en une ligne avec write
-- Bonus: utiliser les opérations sur les bits pour extraire les caractères un par un.
